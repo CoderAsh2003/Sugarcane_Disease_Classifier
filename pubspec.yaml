@@ -1,0 +1,34 @@
+name: sugarcane_leaf_disease_classifier
+description: "A Sugarcane Leaf Disease classifier ML model integrated into Flutter"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  image_picker: ^1.1.2
+  tflite: ^1.1.2
+  another_flutter_splash_screen: ^1.2.1
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add this section to include assets
+  assets:
+    - assets/images/logo.png
+    - assets/images/sugarcane.png
+    - assets/images/flutterml.tflite
+    - assets/images/labels.txt
+    # If you have more assets or want to include all images, use:
+    # - assets/images/
